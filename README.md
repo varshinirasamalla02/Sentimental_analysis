@@ -76,33 +76,42 @@ project-bolt-sb1-8fz8qsdj/
   [http://127.0.0.1:8000/api/reviews/](http://127.0.0.1:8000/api/reviews/)
 
 ---
+**Frontend (React + Vite) Setup Instructions**
 
-🎨 Frontend (React + Vite) Setup
 Make sure you have the React frontend project inside your main directory or in a separate folder. Follow these steps to run the frontend:
-In Anthoner Terminal cmd the django should be working in one terminal and the react in another terminal.
-1. Navigate to the React Project Folder
-bash
-Copy
-Edit
-cd frontend  # or whatever your frontend directory is named
-2. Install Node Modules
-bash
-Copy
-Edit
-npm install
-3. Run the Development Server
-bash
-Copy
-Edit
-npm run dev
-4. Access the Website
-By default, the frontend will be available at:
 
-arduino
-Copy
-Edit
+**Important:**
+- You should have **two terminals** open:
+  - One for running the Django backend.
+  - Another for running the React frontend.
+
+---
+
+### 1. Navigate to the React Project Folder
+```bash
+cd frontend  # or whatever your frontend directory is named
+```
+
+### 2. Install Node Modules
+```bash
+npm install
+```
+
+### 3. Run the Development Server
+```bash
+npm run dev
+```
+
+### 4. Access the Website
+By default, the frontend will be available at:
+```
 http://localhost:5173/
-Make sure the backend (Django server) is also running so that the frontend can connect to the APIs.
+```
+
+**Note:**
+- Make sure the Django backend server is also running so that the frontend can connect to the APIs properly.
+
+
 ## 🚰 Features
 
 - Django Admin Panel to manage database entries.
